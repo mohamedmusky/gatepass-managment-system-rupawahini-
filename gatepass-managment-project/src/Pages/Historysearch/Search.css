@@ -1,0 +1,40 @@
+
+body {
+  margin: 0; 
+  padding: 0; 
+  height: 100vh; 
+  background-image: url('../../Assets/staff.png'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+}
+
+.blur-image{
+  background-color:rgba(91, 90, 97, 0.651);
+   border-radius: 50px;
+   box-shadow: 0px 4px 25px 10px rgba(0, 0, 0, 10);;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.request{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:"absolute";
+    right:"0";
+    width: 30vw; 
+    height: 5vh; 
+   background-image: url('../../Assets/view.png');
+  border-radius: 20px;
+  margin-bottom: 3vh;
+  
+
+}

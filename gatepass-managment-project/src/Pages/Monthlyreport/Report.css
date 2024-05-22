@@ -1,0 +1,106 @@
+.bod1 {
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    background-image: url('../../Assets/staff.png'); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blur-image2 {
+    background-color: rgba(236, 235, 239, 0.651); 
+    border-radius: 50px;
+    box-shadow: 0px 4px 25px 10px rgba(0, 0, 0, 10);;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blur-image1 {
+    background-color: rgb(242, 215, 215);
+    background-color: rgb(247, 229, 229);
+    border: 5px solid #811F15;
+    border-radius: 10px;
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto; /* Center the element horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Report-head {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: 2vw; /* Responsive font size */
+    font-weight: bold;
+    width: 100%; /* Adjusted width to prevent text overflow */
+    text-align: center;
+    color: black;
+  }
+  
+  .report-detail-item {
+    margin-bottom: 15px;
+    width: 80%;
+    text-align: left;
+  }
+  
+  .detail-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw; /* Responsive font size */
+    color: black;
+  }
+  
+  .detail-value {
+    margin-left: 10px;
+    font-size: 1.4vw; /* Responsive font size */
+    color: black;
+  }
+  
+  /* Media Queries for Enhanced Responsiveness */
+  @media (max-width: 1200px) {
+    .Report-head {
+        font-size: 24px; /* Fallback font size for smaller screens */
+    }
+    .detail-label,
+    .detail-value {
+        font-size: 14px; /* Fallback font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .blur-image1 {
+        width: 80%;
+    }
+    .Report-head {
+        font-size: 18px; /* Decrease font size for smaller screens */
+        width: 90%; /* Adjust width to prevent overflow */
+        text-align: center; /* Center-align text */
+    }
+    .detail-label,
+    .detail-value {
+        font-size: 12px; /* Fallback font size for smaller screens */
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .Report-head {
+        font-size: 10px; /* Fallback font size for even smaller screens */
+    }
+    .detail-label,
+    .detail-value {
+        font-size: 10px; /* Fallback font size for even smaller screens */
+    }
+  }
+  

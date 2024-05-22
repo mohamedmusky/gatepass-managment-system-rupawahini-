@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@600&display=swap');
+
+
+  
+
+
+
+
+.button:hover {
+    color: #EEC01F !important;
+    transform: scale(1.08);
+}
+
+@keyframes fadeInWords {
+    0% {
+      opacity: 0.1;
+      color: #EEC01F;
+    }
+    25% {
+      opacity: 1;
+      color: #973535;
+      
+    }
+    50% {
+      opacity: 0.1;
+     
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.1;
+      
+    }
+  }
+  
+  .welcome-text {
+    animation: fadeInWords 6s infinite; /* Adjust the duration as needed */
+    font-family: 'Noto Sans Sinhala', sans-serif;
+  }
+  

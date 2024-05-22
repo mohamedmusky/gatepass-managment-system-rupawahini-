@@ -1,0 +1,106 @@
+/* Request.css */
+
+
+
+.bod {
+
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url('../../Assets/userpage1.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.blur-image {
+  background-color: rgba(255, 255, 255, 0.658);
+
+  border-radius: 50px;
+  
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.rectangle-col {
+  display: flex ; 
+  align-items: center;
+  justify-content: space-between;
+  background-color: #973535;
+  border: 2px solid white;
+  width: 100%; /* Adjusted width to fit the container */
+  max-width: 600px; /* Added max-width for better responsiveness */
+  height: 10vh;
+  border-radius: 20px;
+  margin-bottom: 1vh;
+  padding: 10px; /* Added padding for better spacing */
+}
+
+.rectangle {
+  font-size: larger;
+}
+
+.request {
+  font-size: larger;
+  margin-left: 3vw;
+  border-color: black;
+  color: white;
+
+}
+
+.cancel {
+  font-size: larger;
+  margin-right: 3vw;
+  border-color: black;
+  margin-top: 2vh;
+}
+
+.report {
+  margin-bottom: 10px;
+  border: 5px solid #973535;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 10px; /* Added padding for better spacing */
+  color: #973535;
+}
+
+.report-item {
+  margin-bottom: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  margin-left: 10px;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .rectangle-col {
+    flex-direction: column;
+    height: auto;
+  }
+  .cancel button {
+    width: 30px;
+    height: 1%;
+    font-size: 8px;
+    
+  }
+  .view button{
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+
+  }
+}
+
